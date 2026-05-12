@@ -1366,56 +1366,77 @@ h3 {
   }
 
   .seasonal-panel {
-    display: none;
+    display: grid;
   }
 
   .seasonal-mobile-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 10px;
+    display: none;
   }
 
-  .seasonal-card {
-    overflow: hidden;
-    color: var(--green);
-    background: var(--cream);
-    border: 1px solid rgba(255, 250, 241, 0.18);
+  .seasonal-viewport {
     border-radius: 8px;
-    box-shadow: 0 14px 34px rgba(44, 31, 68, 0.14);
-    cursor: pointer;
   }
 
-  .seasonal-card img {
-    width: 100%;
-    aspect-ratio: 4 / 5;
+  .seasonal-slide {
+    grid-template-columns: minmax(0, 0.48fr) minmax(0, 0.52fr);
+    min-height: 260px;
+  }
+
+  .seasonal-slide img {
+    min-height: 260px;
     padding: 7px;
-    background: #f4efe5;
-    object-fit: contain;
   }
 
-  .seasonal-card div {
-    display: grid;
-    gap: 5px;
-    padding: 10px;
+  .seasonal-slide-copy {
+    padding: 16px 13px;
   }
 
-  .seasonal-card .label {
-    margin: 0;
+  .seasonal-slide-copy .label {
+    margin-bottom: 6px;
     font-size: 8px;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.06em;
   }
 
-  .seasonal-card h3 {
-    color: var(--green);
-    font-size: 24px;
-    line-height: 0.98;
+  .seasonal-slide-copy h3 {
+    font-size: clamp(28px, 9vw, 38px);
+    line-height: 0.95;
   }
 
-  .seasonal-card strong {
-    color: var(--rose-dark);
-    font-size: 13px;
-    font-weight: 800;
-    letter-spacing: 0.04em;
+  .seasonal-slide-copy p:not(.label) {
+    margin-top: 8px;
+    font-size: 11px;
+    line-height: 1.35;
+  }
+
+  .seasonal-slide-copy strong {
+    margin: 8px 0 12px;
+    font-size: 28px;
+    line-height: 1;
+  }
+
+  .seasonal-slide-copy .pill {
+    min-height: 34px;
+    padding: 0 12px;
+    font-size: 9px;
+    letter-spacing: 0.05em;
+  }
+
+  .seasonal-arrow {
+    width: 34px;
+    height: 34px;
+    font-size: 26px;
+  }
+
+  .seasonal-prev {
+    left: -10px;
+  }
+
+  .seasonal-next {
+    right: -10px;
+  }
+
+  .seasonal-dots {
+    margin-top: 10px;
   }
 
   .hero-collage {
@@ -1433,17 +1454,65 @@ h3 {
     display: none;
   }
 
+  .product-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .product-card {
+    min-height: 330px;
+  }
+
+  .product-card::before {
+    inset: 8px;
+  }
+
   .product-card img,
   .product-placeholder {
-    min-height: 520px;
+    min-height: 330px;
+  }
+
+  .product-placeholder {
+    padding: 14px;
+  }
+
+  .product-placeholder span {
+    padding: 10px 12px;
+    border-radius: 8px;
+    font-size: 9px;
   }
 
   .product-card-body {
-    padding: 120px 20px 22px;
+    padding: 64px 12px 13px;
+  }
+
+  .product-card h3 {
+    font-size: 25px;
+    line-height: 0.98;
+  }
+
+  .product-card p {
+    font-size: 12px;
+    line-height: 1.35;
+  }
+
+  .product-card .pill {
+    min-height: 34px;
+    padding: 0 12px;
+    font-size: 9px;
+    letter-spacing: 0.05em;
+  }
+
+  .mini-prices {
+    gap: 6px;
+    margin: 13px 0;
   }
 
   .mini-prices li {
     letter-spacing: 0.04em;
+    gap: 8px;
+    padding-bottom: 5px;
+    font-size: 10px;
   }
 
   .signature .section-heading {
