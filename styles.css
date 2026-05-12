@@ -1050,6 +1050,15 @@ h3 {
   color: rgba(255, 250, 241, 0.72);
 }
 
+.site-credit {
+  margin-top: 10px;
+  color: rgba(255, 250, 241, 0.56);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .floating-whatsapp {
   position: fixed;
   right: 20px;
