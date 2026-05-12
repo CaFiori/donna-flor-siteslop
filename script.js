@@ -2,19 +2,19 @@ const phone = "93991918587";
 
 const planData = {
   P: [
-    { name: "Essência", price: "R$217,00", items: ["1 Buquê por mês", "Embalagem especial", "Design floral surpresa", "Flores frescas", "Entrega inclusa"] },
-    { name: "Harmonia", price: "R$407,00", items: ["2 Buquês por mês", "Entrega quinzenal", "Embalagem especial", "Design floral surpresa", "Flores frescas", "Entrega inclusa"] },
-    { name: "Encanto", price: "R$767,00", items: ["4 Buquês por mês", "Entrega semanal", "Embalagem especial", "Design floral surpresa", "Arranjos exclusivos", "Entrega inclusa"] },
+    { name: "EssÃªncia", price: "R$217,00", items: ["1 BuquÃª por mÃªs", "Embalagem especial", "Design floral surpresa", "Flores frescas", "Entrega inclusa"] },
+    { name: "Harmonia", price: "R$407,00", items: ["2 BuquÃªs por mÃªs", "Entrega quinzenal", "Embalagem especial", "Design floral surpresa", "Flores frescas", "Entrega inclusa"] },
+    { name: "Encanto", price: "R$767,00", items: ["4 BuquÃªs por mÃªs", "Entrega semanal", "Embalagem especial", "Design floral surpresa", "Arranjos exclusivos", "Entrega inclusa"] },
   ],
   M: [
-    { name: "Essência", price: "R$317,00", items: ["1 Buquê por mês", "Embalagem especial", "Design floral surpresa", "Flores frescas", "Entrega inclusa"] },
-    { name: "Harmonia", price: "R$597,00", items: ["2 Buquês por mês", "Entrega quinzenal", "Embalagem especial", "Design floral surpresa", "Flores frescas", "Entrega inclusa"] },
-    { name: "Encanto", price: "R$1.117,00", items: ["4 Buquês por mês", "Entrega semanal", "Embalagem especial", "Design floral surpresa", "Arranjos exclusivos", "Entrega inclusa"] },
+    { name: "EssÃªncia", price: "R$317,00", items: ["1 BuquÃª por mÃªs", "Embalagem especial", "Design floral surpresa", "Flores frescas", "Entrega inclusa"] },
+    { name: "Harmonia", price: "R$597,00", items: ["2 BuquÃªs por mÃªs", "Entrega quinzenal", "Embalagem especial", "Design floral surpresa", "Flores frescas", "Entrega inclusa"] },
+    { name: "Encanto", price: "R$1.117,00", items: ["4 BuquÃªs por mÃªs", "Entrega semanal", "Embalagem especial", "Design floral surpresa", "Arranjos exclusivos", "Entrega inclusa"] },
   ],
   G: [
-    { name: "Essência", price: "R$417,00", items: ["1 Buquê por mês", "Embalagem especial", "Design floral surpresa", "Flores frescas", "Entrega inclusa"] },
-    { name: "Harmonia", price: "R$787,00", items: ["2 Buquês por mês", "Entrega quinzenal", "Embalagem especial", "Design floral surpresa", "Flores frescas", "Entrega inclusa"] },
-    { name: "Encanto", price: "R$1.467,00", items: ["4 Buquês por mês", "Entrega semanal", "Embalagem especial", "Design floral surpresa", "Arranjos exclusivos", "Entrega inclusa"] },
+    { name: "EssÃªncia", price: "R$417,00", items: ["1 BuquÃª por mÃªs", "Embalagem especial", "Design floral surpresa", "Flores frescas", "Entrega inclusa"] },
+    { name: "Harmonia", price: "R$787,00", items: ["2 BuquÃªs por mÃªs", "Entrega quinzenal", "Embalagem especial", "Design floral surpresa", "Flores frescas", "Entrega inclusa"] },
+    { name: "Encanto", price: "R$1.467,00", items: ["4 BuquÃªs por mÃªs", "Entrega semanal", "Embalagem especial", "Design floral surpresa", "Arranjos exclusivos", "Entrega inclusa"] },
   ],
 };
 
@@ -27,32 +27,32 @@ const products = [
     prices: [["P", "R$239"], ["M", "R$349"], ["G", "R$459"]],
   },
   {
-    name: "Buquê de Rosas",
+    name: "BuquÃª de Rosas",
     theme: "rose",
     image: "assets/bouquet-rosas.jpg",
-    description: "Rosas vermelhas importadas em uma composição exclusiva, intensa e majestosa.",
-    prices: [["Pétit", "R$450", "15 rosas"], ["P", "R$750", "25 rosas"], ["M", "R$980", "35 rosas"], ["G", "R$1500", "50 rosas"], ["GG", "R$3000", "100 rosas"]],
+    description: "Rosas vermelhas importadas em uma composiÃ§Ã£o exclusiva, intensa e majestosa.",
+    prices: [["PÃ©tit", "R$450", "15 rosas"], ["P", "R$750", "25 rosas"], ["M", "R$980", "35 rosas"], ["G", "R$1500", "50 rosas"], ["GG", "R$3000", "100 rosas"]],
   },
   {
-    name: "Buquê de Girassóis",
+    name: "BuquÃª de GirassÃ³is",
     theme: "rose",
     image: "assets/bouquet-girassois.jpg",
-    description: "Girassóis luminosos em composição vibrante para presentes marcantes.",
-    prices: [["Pétit", "R$450", "15 girassóis"], ["P", "R$750", "25 girassóis"], ["M", "R$980", "35 girassóis"], ["G", "R$1400", "50 girassóis"], ["GG", "R$2800", "100 girassóis"]],
+    description: "GirassÃ³is luminosos em composiÃ§Ã£o vibrante para presentes marcantes.",
+    prices: [["PÃ©tit", "R$450", "15 girassÃ³is"], ["P", "R$750", "25 girassÃ³is"], ["M", "R$980", "35 girassÃ³is"], ["G", "R$1400", "50 girassÃ³is"], ["GG", "R$2800", "100 girassÃ³is"]],
   },
   {
     name: "Box Floral",
     theme: "green",
     image: "assets/catalogo/crops/box-floral.jpg",
-    description: "Box floral pronta para encantar, sem necessidade de vaso e com estética impecável por mais tempo.",
+    description: "Box floral pronta para encantar, sem necessidade de vaso e com estÃ©tica impecÃ¡vel por mais tempo.",
     prices: [["P", "R$280"], ["G", "R$480"]],
   },
   {
-    name: "Serviços Florais",
+    name: "ServiÃ§os Florais",
     theme: "green",
     image: "",
-    placeholder: "Fotos de serviços sob encomenda",
-    description: "Arranjos florais, buquê de noiva, assinatura floral e coroa fúnebre sob encomenda.",
+    placeholder: "Fotos de serviÃ§os sob encomenda",
+    description: "Arranjos florais, buquÃª de noiva, assinatura floral e coroa fÃºnebre sob encomenda.",
     prices: [["Sob medida", "Consultar"]],
   },
 ];
@@ -61,24 +61,24 @@ const seasonalItems = [
   {
     name: "Box Floral",
     image: "assets/maes/page-0006.jpg",
-    eyebrow: "Presença para a casa",
-    description: "Uma box delicada com flores nobres, acabamento especial e composição pronta para encantar.",
+    eyebrow: "PresenÃ§a para a casa",
+    description: "Uma box delicada com flores nobres, acabamento especial e composiÃ§Ã£o pronta para encantar.",
     price: "R$280",
     prices: [["Tamanho P", "R$280"]],
   },
   {
-    name: "Buquê Mix de Florais",
+    name: "BuquÃª Mix de Florais",
     image: "assets/maes/page-0004.jpg",
     eyebrow: "Aromas e texturas",
-    description: "Buquê com flores selecionadas em tons suaves, criado para transmitir carinho, leveza e celebração.",
+    description: "BuquÃª com flores selecionadas em tons suaves, criado para transmitir carinho, leveza e celebraÃ§Ã£o.",
     price: "A partir de R$280",
     prices: [["P", "R$280"], ["M", "R$420"], ["G", "R$580"]],
   },
   {
     name: "Envelope Floral",
     image: "assets/maes/page-0005.jpg",
-    eyebrow: "Delicado e memorável",
-    description: "Formato elegante para quem busca um presente diferente, com a estética de um gesto escrito em flores.",
+    eyebrow: "Delicado e memorÃ¡vel",
+    description: "Formato elegante para quem busca um presente diferente, com a estÃ©tica de um gesto escrito em flores.",
     price: "R$345",
     prices: [["Envelope floral", "R$345"]],
   },
@@ -86,15 +86,15 @@ const seasonalItems = [
     name: "Flower Bag",
     image: "assets/maes/page-0009.jpg",
     eyebrow: "Presente que acompanha",
-    description: "Flores em uma bag rústica que permanece depois da entrega, unindo beleza e utilidade.",
+    description: "Flores em uma bag rÃºstica que permanece depois da entrega, unindo beleza e utilidade.",
     price: "R$425",
     prices: [["Flower Bag", "R$425"]],
   },
   {
-    name: "Box Floral Dia das Mães",
+    name: "Box Floral Dia das MÃ£es",
     image: "assets/maes/page-0007.jpg",
-    eyebrow: "Cuidado e fé",
-    description: "Box floral em tamanho G com imagem religiosa em gesso, pensada como um presente de presença, proteção e afeto.",
+    eyebrow: "Cuidado e fÃ©",
+    description: "Box floral em tamanho G com imagem religiosa em gesso, pensada como um presente de presenÃ§a, proteÃ§Ã£o e afeto.",
     price: "R$547",
     prices: [["Box G + imagem", "R$547"]],
   },
@@ -102,29 +102,29 @@ const seasonalItems = [
 
 const themeMoments = {
   aniversario: {
-    label: "Aniversário",
-    title: "Flores para celebrar a presença de alguém.",
-    description: "Sugestões alegres, delicadas ou exuberantes para transformar parabéns em memória. Esta seção receberá fotos reais de entregas feitas para aniversários.",
+    label: "AniversÃ¡rio",
+    title: "Flores para celebrar a presenÃ§a de alguÃ©m.",
+    description: "SugestÃµes alegres, delicadas ou exuberantes para transformar parabÃ©ns em memÃ³ria. Esta seÃ§Ã£o receberÃ¡ fotos reais de entregas feitas para aniversÃ¡rios.",
     photos: [
-      { type: "image", src: "assets/catalogo/page-0011.jpg", alt: "Mix floral colorido para aniversário", label: "Mix alegre" },
+      { type: "image", src: "assets/catalogo/page-0011.jpg", alt: "Mix floral colorido para aniversÃ¡rio", label: "Mix alegre" },
       { type: "placeholder", label: "Box floral" },
-      { type: "placeholder", label: "Buquê delicado" },
+      { type: "placeholder", label: "BuquÃª delicado" },
     ],
   },
   romance: {
     label: "Romance",
-    title: "Gestos intensos, elegantes e inesquecíveis.",
-    description: "Rosas, tons profundos e composições pensadas para declarações, pedidos especiais e datas a dois.",
+    title: "Gestos intensos, elegantes e inesquecÃ­veis.",
+    description: "Rosas, tons profundos e composiÃ§Ãµes pensadas para declaraÃ§Ãµes, pedidos especiais e datas a dois.",
     photos: [
-      { type: "image", src: "assets/bouquet-rosas.jpg", alt: "Buquê romântico de rosas", label: "Rosas importadas" },
+      { type: "image", src: "assets/bouquet-rosas.jpg", alt: "BuquÃª romÃ¢ntico de rosas", label: "Rosas importadas" },
       { type: "placeholder", label: "Pedido especial" },
-      { type: "placeholder", label: "Surpresa romântica" },
+      { type: "placeholder", label: "Surpresa romÃ¢ntica" },
     ],
   },
   agradecimento: {
     label: "Agradecimento",
     title: "Flores para dizer obrigada com beleza.",
-    description: "Arranjos suaves, boxes e mix de florais para reconhecer cuidado, parceria, acolhimento e presença.",
+    description: "Arranjos suaves, boxes e mix de florais para reconhecer cuidado, parceria, acolhimento e presenÃ§a.",
     photos: [
       { type: "image", src: "assets/catalogo/page-0006.jpg", alt: "Box floral para agradecimento", label: "Box floral" },
       { type: "placeholder", label: "Arranjo suave" },
@@ -133,12 +133,12 @@ const themeMoments = {
   },
   datas: {
     label: "Datas especiais",
-    title: "Composições sazonais para momentos marcantes.",
-    description: "Dia das Mães, Dia dos Namorados, formaturas, inaugurações e ocasiões que pedem uma criação com presença.",
+    title: "ComposiÃ§Ãµes sazonais para momentos marcantes.",
+    description: "Dia das MÃ£es, Dia dos Namorados, formaturas, inauguraÃ§Ãµes e ocasiÃµes que pedem uma criaÃ§Ã£o com presenÃ§a.",
     photos: [
-      { type: "image", src: "assets/bouquet-girassois.jpg", alt: "Buquê solar para data especial", label: "Buquê solar" },
+      { type: "image", src: "assets/bouquet-girassois.jpg", alt: "BuquÃª solar para data especial", label: "BuquÃª solar" },
       { type: "placeholder", label: "Datas sazonais" },
-      { type: "placeholder", label: "Composição premium" },
+      { type: "placeholder", label: "ComposiÃ§Ã£o premium" },
     ],
   },
 };
@@ -151,6 +151,7 @@ const seasonalTrack = document.querySelector("#seasonalTrack");
 const seasonalDots = document.querySelector("#seasonalDots");
 const seasonalPrev = document.querySelector(".seasonal-prev");
 const seasonalNext = document.querySelector(".seasonal-next");
+const seasonalMobileGrid = document.querySelector("#seasonalMobileGrid");
 const themeAccordion = document.querySelector("#themeAccordion");
 const mobileThemeQuery = window.matchMedia("(max-width: 640px)");
 let seasonalIndex = 0;
@@ -237,7 +238,7 @@ function renderPlans(size = "P") {
         <article class="plan-card">
           <h3>${escapeHtml(plan.name)}</h3>
           <ul>${plan.items.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>
-          <a class="price-badge" href="${whatsAppLink(`Olá, quero saber mais sobre o plano ${plan.name} tamanho ${size}`)}" target="_blank" rel="${externalLinkRel}">${escapeHtml(plan.price)}</a>
+          <a class="price-badge" href="${whatsAppLink(`OlÃ¡, quero saber mais sobre o plano ${plan.name} tamanho ${size}`)}" target="_blank" rel="${externalLinkRel}">${escapeHtml(plan.price)}</a>
         </article>
       `,
     )
@@ -255,7 +256,7 @@ function renderProducts() {
             <ul class="mini-prices">
               ${miniPriceItems(product.prices)}
             </ul>
-            <span class="pill light">Ver opções</span>
+            <span class="pill light">Ver opÃ§Ãµes</span>
           </div>
         </article>
       `,
@@ -286,6 +287,23 @@ function renderSeasonalItems() {
   seasonalDots.innerHTML = seasonalItems
     .map((item, index) => `<button type="button" aria-label="Ver ${escapeHtml(item.name)}" data-seasonal-dot="${index}"></button>`)
     .join("");
+
+  if (seasonalMobileGrid) {
+    seasonalMobileGrid.innerHTML = seasonalItems
+      .map(
+        (item, index) => `
+          <article class="seasonal-card" data-seasonal-index="${index}" tabindex="0" role="button" aria-label="Ver ${escapeHtml(item.name)}">
+            <img src="${escapeHtml(item.image)}" alt="${escapeHtml(item.name)}" loading="lazy" decoding="async" />
+            <div>
+              <p class="label">${escapeHtml(item.eyebrow)}</p>
+              <h3>${escapeHtml(item.name)}</h3>
+              <strong>${escapeHtml(item.price)}</strong>
+            </div>
+          </article>
+        `,
+      )
+      .join("");
+  }
 
   setSeasonalSlide(0);
 }
@@ -364,7 +382,7 @@ function openProduct(index) {
             ${priceRows(product.prices)}
           </tbody>
         </table>
-        <a class="pill rose" href="${whatsAppLink(`Olá, quero fazer um pedido de ${product.name}`)}" target="_blank" rel="${externalLinkRel}">Pedir pelo WhatsApp</a>
+        <a class="pill rose" href="${whatsAppLink(`OlÃ¡, quero fazer um pedido de ${product.name}`)}" target="_blank" rel="${externalLinkRel}">Pedir pelo WhatsApp</a>
       </div>
     </div>
   `);
@@ -376,7 +394,7 @@ function openSeasonalProduct(index) {
     <div class="modal-layout seasonal-modal">
       <img src="${escapeHtml(product.image)}" alt="${escapeHtml(product.name)}" />
       <div class="modal-copy">
-        <p class="label">Especial Dia das Mães</p>
+        <p class="label">Especial Dia das MÃ£es</p>
         <h3>${escapeHtml(product.name)}</h3>
         <p>${escapeHtml(product.description)}</p>
         <table>
@@ -384,7 +402,7 @@ function openSeasonalProduct(index) {
             ${priceRows(product.prices)}
           </tbody>
         </table>
-        <a class="pill rose" href="${whatsAppLink(`Olá, quero reservar ${product.name} da coleção Dia das Mães`)}" target="_blank" rel="${externalLinkRel}">Reservar pelo WhatsApp</a>
+        <a class="pill rose" href="${whatsAppLink(`OlÃ¡, quero reservar ${product.name} da coleÃ§Ã£o Dia das MÃ£es`)}" target="_blank" rel="${externalLinkRel}">Reservar pelo WhatsApp</a>
       </div>
     </div>
   `);
@@ -444,9 +462,24 @@ seasonalTrack?.addEventListener("click", (event) => {
   openSeasonalProduct(Number(button.dataset.seasonalIndex));
 });
 
+seasonalMobileGrid?.addEventListener("click", (event) => {
+  const card = event.target.closest("[data-seasonal-index]");
+  if (!card) return;
+  openSeasonalProduct(Number(card.dataset.seasonalIndex));
+});
+
+seasonalMobileGrid?.addEventListener("keydown", (event) => {
+  if (event.key !== "Enter" && event.key !== " ") return;
+  const card = event.target.closest("[data-seasonal-index]");
+  if (!card) return;
+  event.preventDefault();
+  openSeasonalProduct(Number(card.dataset.seasonalIndex));
+});
+
 document.querySelector(".modal-close").addEventListener("click", () => productModal.close());
 productModal.addEventListener("close", () => document.body.classList.remove("modal-open"));
 
 renderPlans();
 renderProducts();
 renderSeasonalItems();
+
