@@ -384,6 +384,10 @@ h3 {
   min-width: 0;
 }
 
+.seasonal-mobile-grid {
+  display: none;
+}
+
 .seasonal-viewport {
   overflow: hidden;
   border-radius: 8px;
@@ -1323,32 +1327,31 @@ h3 {
   }
 
   .seasonal-highlight {
-    grid-template-columns: minmax(0, 0.78fr) minmax(0, 1fr);
-    align-items: stretch;
-    gap: 10px;
-    padding-top: 28px;
-    padding-bottom: 28px;
+    grid-template-columns: 1fr;
+    gap: 14px;
+    padding-top: 30px;
+    padding-bottom: 34px;
   }
 
   .seasonal-copy {
-    min-height: 0;
-    padding: 18px 14px;
+    min-height: auto;
+    padding: 22px 18px;
     border-radius: 8px;
   }
 
   .seasonal-copy::after {
-    right: 12px;
+    right: 14px;
     bottom: 10px;
-    font-size: 32px;
+    font-size: 38px;
   }
 
   .seasonal-copy h2 {
-    font-size: clamp(38px, 11vw, 54px);
+    font-size: clamp(42px, 12vw, 58px);
   }
 
   .seasonal-copy p:not(.label) {
-    font-size: 13px;
-    line-height: 1.45;
+    font-size: 14px;
+    line-height: 1.5;
   }
 
   .seasonal-meta {
@@ -1362,52 +1365,57 @@ h3 {
     letter-spacing: 0.04em;
   }
 
-  .seasonal-slide {
-    min-height: 0;
-    grid-template-columns: 1fr;
+  .seasonal-panel {
+    display: none;
   }
 
-  .seasonal-slide img {
-    min-height: 210px;
-    max-height: 240px;
-    padding: 8px;
+  .seasonal-mobile-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
   }
 
-  .seasonal-slide-copy {
-    padding: 16px 14px 18px;
+  .seasonal-card {
+    overflow: hidden;
+    color: var(--green);
+    background: var(--cream);
+    border: 1px solid rgba(255, 250, 241, 0.18);
+    border-radius: 8px;
+    box-shadow: 0 14px 34px rgba(44, 31, 68, 0.14);
+    cursor: pointer;
   }
 
-  .seasonal-slide-copy h3 {
-    font-size: 30px;
+  .seasonal-card img {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    padding: 7px;
+    background: #f4efe5;
+    object-fit: contain;
   }
 
-  .seasonal-slide-copy p:not(.label) {
+  .seasonal-card div {
+    display: grid;
+    gap: 5px;
+    padding: 10px;
+  }
+
+  .seasonal-card .label {
+    margin: 0;
+    font-size: 8px;
+    letter-spacing: 0.08em;
+  }
+
+  .seasonal-card h3 {
+    color: var(--green);
+    font-size: 24px;
+    line-height: 0.98;
+  }
+
+  .seasonal-card strong {
+    color: var(--rose-dark);
     font-size: 13px;
-    line-height: 1.45;
-  }
-
-  .seasonal-slide-copy strong {
-    margin: 8px 0 14px;
-    font-size: 34px;
-  }
-
-  .seasonal-arrow {
-    top: 112px;
-    width: 32px;
-    height: 32px;
-    font-size: 25px;
-  }
-
-  .seasonal-prev {
-    left: 8px;
-  }
-
-  .seasonal-next {
-    right: 8px;
-  }
-
-  .seasonal-dots {
-    margin-top: 10px;
+    font-weight: 800;
+    letter-spacing: 0.04em;
   }
 
   .hero-collage {
@@ -1588,3 +1596,4 @@ h3 {
     bottom: 14px;
   }
 }
+
